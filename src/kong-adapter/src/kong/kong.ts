@@ -15,7 +15,7 @@ const MAX_PARALLEL_CALLS = 10;
 const KONG_BATCH_SIZE = 100; // Used when wiping the consumers
 const RATE_LIMITING = 'rate-limiting';
 const ROTATE_KEY='rotate-key';
-
+//
 function buildServiceTags(portalApi: any): string[] | undefined {
     const tags: string[] = [];
     if (portalApi.businessSegment)
