@@ -21,8 +21,9 @@ export interface KongApi {
     write_timeout?: number,
     upstream_url: string,
     routes?: KongRoute[],
-    enable_routes?: boolean
-    regex_priority?: number
+    enable_routes?: boolean,
+    regex_priority?: number,   
+    tags?: string[]
 }
 
 export enum ProtocolType {
